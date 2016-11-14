@@ -1,0 +1,300 @@
+.webkit-sticky-relative-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+[data-dpr="1"] .webkit-sticky-relative-wrap {
+  padding-right: 40px;
+}
+
+[data-dpr="2"] .webkit-sticky-relative-wrap {
+  padding-right: 80px;
+}
+
+[data-dpr="3"] .webkit-sticky-relative-wrap {
+  padding-right: 120px;
+}
+
+.flex1 {
+  width: 100%;
+  overflow: hidden;
+  border-left: none;
+  border-right: none;
+}
+
+.com-sticky-wrap {
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.com-sticky-wrap-webkit {
+  height: 1.066667rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.com-sticky-wrap-webkit a:hover {
+  text-decoration: none;
+}
+
+.com-sticky-wrap-webkit a:active {
+  text-decoration: none;
+}
+
+.com-sticky-wrap-webkit a:link {
+  text-decoration: none;
+}
+
+.com-sticky-wrap-webkit a:visited {
+  text-decoration: none;
+}
+
+.type {
+  display: block;
+  padding: 0 0.4rem;
+  line-height: 1.013333rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.373333rem;
+  color: #ffffff;
+  letter-spacing: 0.031067rem;
+  text-align: center;
+  border-bottom: 0.053333rem solid transparent;
+}
+
+.type-active {
+  font-family: PingFangSC-Regular;
+  font-size: 0.373333rem;
+  color: #FFE500;
+  letter-spacing: 0.037333rem;
+  text-align: center;
+  border-bottom: 0.053333rem solid #FFE500;
+}
+
+.right-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 300;
+  width: 1.066667rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  border-left: none;
+  border-right: none;
+}
+
+.right-btn .right-btn-shadow {
+  position: absolute;
+  left: -0.32rem;
+  top: 0;
+  width: 0.346667rem;
+  height: 1.066667rem;
+  z-index: 300;
+  background-repeat: no-repeat;
+  background-size: 0.346667rem 1.066667rem;
+}
+
+.right-btn .right-btn-btn {
+  width: 1.066667rem;
+  height: 1.066667rem;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAElBMVEUAAAD///////////////////8+Uq06AAAABXRSTlMAEGCfzyen0/oAAACaSURBVEjH7dSxEYAgDAVQxAUsGIDGDVxA71yAk/1XURGFwE88z5bfJMXndUGplpaP6d4K08A8XK7Z+xkXjLdhar9BoltjQY2YMN7FDRMJYIgEYCIHIJEDiKAAIChQEyVQESVQEjVQEDVACQQQAgE5gYGMwEAiOOAhOOAmeCASPHAREhAICQiECJyECJyEDByEe7lTbdtn1vInO6LcJbri+WhoAAAAAElFTkSuQmCC);
+  background-size: 0.333333rem 0.333333rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.changeFloor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.changeFloor .changeFloor-wrap {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 10rem;
+  margin-left: -5rem;
+}
+
+.changeFloor .normal-top {
+  top: 0;
+}
+
+[data-dpr="1"] .changeFloor .android-top {
+  top: 44px;
+}
+
+[data-dpr="2"] .changeFloor .android-top {
+  top: 88px;
+}
+
+[data-dpr="3"] .changeFloor .android-top {
+  top: 132px;
+}
+
+[data-dpr="1"] .changeFloor .ios-top {
+  top: 64px;
+}
+
+[data-dpr="2"] .changeFloor .ios-top {
+  top: 128px;
+}
+
+[data-dpr="3"] .changeFloor .ios-top {
+  top: 192px;
+}
+
+.changeFloor .jiantou {
+  width: 0.293333rem;
+  height: 0.173333rem;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAMAAAD7eU6DAAAAM1BMVEUAAAAzMzM0NDRVVVU0NDQ6OjozMzM1NTUzMzMzMzM7Ozs3NzczMzMzMzM0NDQ0NDQzMzN8vkKZAAAAEHRSTlMA+EoDph/fZu6PERcFwpljvxoRuQAAAHFJREFUOMuVyjkOxDAQxMDxrg9Jvub/r7UABwwpM2h0UPGpvdZ9xLWlz5m5Lm7vKWtEyRG9Za9FzVe7LUf851ernX79od2i3brGusa6xrrGusa6xrrGusa6xrrGusa6xrouWNdY1dghjXV9ZcFq7QiiB2u+DOF/DhGqAAAAAElFTkSuQmCC");
+  background-size: 0.293333rem 0.173333rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  margin-right: 0.386667rem;
+}
+
+.changeFloor .floor-name-wrap {
+  padding-top: 0.533333rem;
+  margin: 0 0 0 0.6rem;
+}
+
+.changeFloor .change-qie {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-left: none;
+  border-right: none;
+  width: 10rem;
+  height: 1.066667rem;
+}
+
+.changeFloor .floor-text {
+  float: left;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  text-align: center;
+  margin-right: 0.68rem;
+  margin-bottom: 0.666667rem;
+}
+
+[data-dpr="1"] .changeFloor .floor-text {
+  font-size: 14px;
+  letter-spacing: 0.995px;
+}
+
+[data-dpr="2"] .changeFloor .floor-text {
+  font-size: 28px;
+  letter-spacing: 1.99px;
+}
+
+[data-dpr="3"] .changeFloor .floor-text {
+  font-size: 42px;
+  letter-spacing: 2.985px;
+}
+
+.changeFloor .floor-text-active {
+  color: #ffa900;
+}
+
+.changeFloor .qie-text {
+  -webkit-box-flex: 1;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  text-align: left;
+  padding-left: 0.733333rem;
+}
+
+[data-dpr="1"] .changeFloor .qie-text {
+  font-size: 14px;
+  letter-spacing: 1.395px;
+}
+
+[data-dpr="2"] .changeFloor .qie-text {
+  font-size: 28px;
+  letter-spacing: 2.79px;
+}
+
+[data-dpr="3"] .changeFloor .qie-text {
+  font-size: 42px;
+  letter-spacing: 4.185px;
+}
+
+.changeFloor .floor-name {
+  background: #ffffff;
+  box-shadow: 0px 1px 0px 0px #dbdbdb, inset 0px 1px 0px 0px #dbdbdb;
+  width: 10rem;
+}
+
+.noMoreThan3 {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  margin-top: 0.266667rem;
+  margin-bottom: 0.36rem;
+}
+
+.noMoreThan3 .allFoodTitleline {
+  width: 0.2rem;
+  border-bottom: 1px solid white;
+}
+
+.noMoreThan3 .allFoodTitle {
+  font-family: PingFangSC-Regular;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0.133333rem;
+}
+
+[data-dpr="1"] .noMoreThan3 .allFoodTitle {
+  font-size: 14px;
+  letter-spacing: 0.435px;
+}
+
+[data-dpr="2"] .noMoreThan3 .allFoodTitle {
+  font-size: 28px;
+  letter-spacing: 0.87px;
+}
+
+[data-dpr="3"] .noMoreThan3 .allFoodTitle {
+  font-size: 42px;
+  letter-spacing: 1.305px;
+}
+
+.normal-posdiv {
+  position: absolute;
+  left: 0;
+}
+
+[data-dpr="1"] .normal-posdiv {
+  top: -40px;
+}
+
+[data-dpr="2"] .normal-posdiv {
+  top: -80px;
+}
+
+[data-dpr="3"] .normal-posdiv {
+  top: -120px;
+}
+
+.iosPos {
+  position: absolute;
+  left: 0;
+  top: -2.72rem;
+}
+
+.androidPos {
+  position: absolute;
+  left: 0;
+  top: -2.24rem;
+}

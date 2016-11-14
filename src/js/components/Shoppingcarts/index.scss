@@ -1,0 +1,48 @@
+.shoppingCart {
+	position: fixed;
+	right:34px;
+	bottom:34px;
+	width:86px;
+	height:86px;
+	border: 2px solid #d1d1d1;/*px*/
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 1px 4px 10px rgba(153,153,153,.5);/*px*/
+    z-index:10;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAACN1BMVEX///8AAAAAAAAAAFVAQEAzMzMrKyskJCQgIEAcHDkzGjMuLi4rK0AnJzskJDciIjMgIDAtLTwrKzkmJjMkJDEjIzosITcrKzUmJjkjIzUrIjMpKTooKDgnJzYmJjUrIzkoKDYnJzQmJjMlJTgkJDcqJDUpKTQoKDkmJjYlJTUoKDcmJjUmJjQlJTgoJDYoKDUnJzQmJjYlJTUoKDgmJjUpJTcoJDcoKDYnJzUmJjcoJTYoJDUnJzgnJzcmJjYmJjYoJTUoJTcnJzUmJjUoJTYoJTYmJjcmJjYoJTUnJTcnJzYmJjYmJjUoJTYnJTYoJjYnJzcmJjYoJjUoJTcnJTYnJzYnJzYmJjUoJjcnJTYnJTUmJjYoJjYoJjUnJTcnJzcnJzYmJjYmJjUoJjcnJTYmJjcnJTUmJjYoJjUnJjcnJzYnJzYmJjUnJjYnJTYmJjcmJjYnJjYnJjcnJzYmJjYoJjUnJjcnJjYnJjYnJTYnJzUmJjcoJjYnJjYnJjYnJTUmJjYnJjYnJTYnJzYoJjcnJjYnJTUnJzYoJjYnJjYnJjYnJjcnJjYnJzYmJjYoJjYnJjYnJjYnJjYnJzUoJjYnJjYnJjYnJjUmJjYoJjYnJjYnJTYmJjYnJjYnJjYnJjYnJjYnJjYnJzYnJjYnJjYnJjYnJjUnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJzYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjYnJjbOHnwJAAAAvHRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESFBUWFxgbHR4fICEiJCYnKCkqKywtLzAzNTY3OTo7PT5AREVGR0hKTE1OT1BRUlNWV1laXV5gYWNkZWdobHBxc3R1dnd4eXt8f4CBgoOEhYaHiYyQk5SVl5iZnJ2foKKjpaanqKmqq6ytrq+wsbO3uLm7vr/AwcLDxMXGx8jKy8zNzs/Q0tTV2Nrb3N3e3+Dh4uPk5ebn6evt7u/w8fLz9PX29/j5+vv9/k1yo9kAAAKNSURBVBgZzcGHV41xAMfh71UoI4VkZWRE9p6hKDsjK9nZ61plhLIzskVmlB0hI/X547ydl3PueN/6dS/neB79B3rlV3/8UH4kVaHai60oTqEp5LdzEQrJiKf8tkyh8fRLSlpYAdxUGCYADQkKwwtgssJQDGQrDHnAuRnGpvZUgAxa6PVc+UmmxXbLV5uftNhE+XoAPLthqgzLPY985APrZGwmliT5yAFOylhkDTBaPqYDj2WuFJguH4lAfXsZqwbGyofnMzBMpnoDDTHydQvIkKlZwCP5yQdyZWozUCA/G4BDMnUGWCk/c4HrMvUWGC8/o4B3MtQdS2f56Yqlk8xMA54rQA2QIjO5wEkFuAPMlpkiYK0CFAA5MlMFTFGATYBXRrpiSVCAecAVGZkEvFKg0cAbGVkDFCtQNywdZOIEsF5BPgFDZOIZkKogd4E0GYjH0kNBjgGrZGAHUKlgm4F9alJM/3EZK69j2a5g84FLctB50PjMVduPXn5Syx/fkhVsDPBSf3jih0yen7OzsLTiO8Ey5SABaOiTMnVR7p6im1U/cVeZKkefadaXxyUF62a2l7MyXNQ8vHB42/I54/p3VJOO46e6/PzBrUvTx/RtJ0N5QMO7+2e9W5akjUqMUostAEoUhrHA+2iFLroW2OhR6AqxPD3drFPZsXI09CuG9stZZj1mnsjFyHKMrJYbT9+0rGYtHqx/KWpgW7mLGNBBTepyuI4f3lg5i8qrpf5Mb7lrXUajK63k6AiNXsXJVRa2OXIyEttWufJi2yUnK7Bdkysvtp1yko3tqlwtwpYuJ8OxbZGryNs0uuiRowM0qoyRu7j9X6nd3VHOWud+oO5UdzUpsk+E3HkS2+pv+gUBz6NqCiZV9AAAAABJRU5ErkJggg==');
+    background-size:40px 40px; 
+}
+
+.redCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #fa4100;
+    transition:all .8s;
+    z-index:9;
+    -webkit-transform: translate3d(0px,0px,0px);
+    text-align:center;
+    line-height:30px;
+    font-size: 22px;
+    color:#fff;
+}
+
+.shoppingCartNumber {
+	font-size: 22px;
+    line-height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #fa4100;
+}

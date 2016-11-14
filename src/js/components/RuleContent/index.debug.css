@@ -1,0 +1,75 @@
+.rule {
+  width: 10rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.rule .rule-in {
+  margin: 0 0.4rem;
+  padding-top: 0.88rem;
+}
+
+.rule .rule-title {
+  font-family: PingFangSC-Regular;
+  font-size: 0.4rem;
+  text-align: left;
+  margin-left: 0.453333rem;
+  margin-bottom: 0.2rem;
+}
+
+.rule .rule-content {
+  margin-left: 0.133333rem;
+  margin-top: 0.2rem;
+  padding-bottom: 0.533333rem;
+}
+
+.rule .rule-content-text {
+  opacity: 0.8;
+  font-family: PingFangSC-Regular;
+  font-size: 0.346667rem;
+  letter-spacing: 0;
+  line-height: 0.613333rem;
+  text-align: left;
+}
+
+.rule .li-content {
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.rule .phone {
+  padding: 0.4rem 0 0.533333rem 0;
+  font-family: PingFangSC-Regular;
+  font-size: 0.373333rem;
+  letter-spacing: 0.028667rem;
+  line-height: 0.506667rem;
+  text-align: center;
+}
+
+.rule .phone a:link {
+  text-decoration: none;
+}
+
+.rule .phone a:active {
+  text-decoration: none;
+}
+
+.rule .phone a:visited {
+  text-decoration: none;
+}
+
+.rule .phone .phone-number {
+  color: #ffffff;
+}
+
+[data-dpr="1"] .rule .phone .phone-number {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .rule .phone .phone-number {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .rule .phone .phone-number {
+  font-size: 42px;
+}

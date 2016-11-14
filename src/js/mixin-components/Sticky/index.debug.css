@@ -1,0 +1,42 @@
+.webkit-sticky {
+  position: -webkit-sticky;
+  z-index: 300;
+}
+
+[data-dpr="1"] .webkit-sticky {
+  min-height: 40px;
+  top: 62px;
+}
+
+[data-dpr="2"] .webkit-sticky {
+  min-height: 80px;
+  top: 124px;
+}
+
+[data-dpr="3"] .webkit-sticky {
+  min-height: 120px;
+  top: 186px;
+}
+
+.webkit-sticky-fixed-wrap {
+  z-index: 300;
+  width: 100%;
+}
+
+.nav-in-active {
+  position: fixed;
+  left: 0;
+  z-index: 300;
+}
+
+[data-dpr="1"] .nav-in-active {
+  top: 44px;
+}
+
+[data-dpr="2"] .nav-in-active {
+  top: 88px;
+}
+
+[data-dpr="3"] .nav-in-active {
+  top: 132px;
+}

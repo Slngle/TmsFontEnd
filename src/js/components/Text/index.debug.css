@@ -1,0 +1,8 @@
+.Text-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.Text-wrap .Text {
+  width: 100%;
+}

@@ -1,0 +1,190 @@
+.redEnvelopeOnly {
+  position: relative;
+  width: 10rem;
+  height: 100%;
+}
+
+.redEnvelopeOnly .phone {
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.redEnvelopeOnly .input {
+  margin-bottom: 0.32rem;
+}
+
+.redEnvelopeOnly .input input {
+  border: 1px solid #333333;
+  border-radius: 0.106667rem;
+  width: 7.973333rem;
+  height: 1.12rem;
+  font-size: 0.453333rem;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  color: #988A1A;
+  text-align: center;
+}
+
+[data-dpr="1"] .redEnvelopeOnly .input input {
+  letter-spacing: 0.5px;
+}
+
+[data-dpr="2"] .redEnvelopeOnly .input input {
+  letter-spacing: 1px;
+}
+
+[data-dpr="3"] .redEnvelopeOnly .input input {
+  letter-spacing: 1.5px;
+}
+
+.redEnvelopeOnly .response {
+  border: 1px solid #333333;
+  border-radius: 0.106667rem;
+  width: 7.986667rem;
+  height: 1.133333rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.453333rem;
+  color: #333333;
+  text-align: center;
+  line-height: 1.133333rem;
+}
+
+[data-dpr="1"] .redEnvelopeOnly .response {
+  letter-spacing: 0.5px;
+}
+
+[data-dpr="2"] .redEnvelopeOnly .response {
+  letter-spacing: 1px;
+}
+
+[data-dpr="3"] .redEnvelopeOnly .response {
+  letter-spacing: 1.5px;
+}
+
+.redEnvelopeOnly .download {
+  display: block;
+  border: 1px solid #ff2b00;
+  border-radius: 0.106667rem;
+  width: 7.973333rem;
+  height: 1.12rem;
+  background-color: #ff2b00;
+  font-family: PingFangSC-Regular;
+  font-size: 0.453333rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.12rem;
+  margin-bottom: 0.186667rem;
+}
+
+[data-dpr="1"] .redEnvelopeOnly .download {
+  letter-spacing: 0.5px;
+}
+
+[data-dpr="2"] .redEnvelopeOnly .download {
+  letter-spacing: 1px;
+}
+
+[data-dpr="3"] .redEnvelopeOnly .download {
+  letter-spacing: 1.5px;
+}
+
+.redEnvelopeOnly .btn {
+  border-radius: 0.106667rem;
+  width: 7.973333rem;
+  height: 1.12rem;
+  margin: 0 auto;
+  font-size: 0.493333rem;
+  text-align: center;
+  line-height: 1.146667rem;
+  margin-bottom: 0.186667rem;
+}
+
+.redEnvelopeOnly .rulebottom {
+  width: 6.666667rem;
+  margin: 0 auto;
+}
+
+.redEnvelopeOnly .rulebottom p {
+  font-family: PingFangSC-Regular;
+  font-size: 0.293333rem;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 0.56rem;
+  text-align: center;
+}
+
+.redEnvelopeOnly .success {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: none;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.redEnvelopeOnly .successbox {
+  position: relative;
+  width: 8.24rem;
+  border-radius: 0.293333rem;
+  overflow: hidden;
+}
+
+.redEnvelopeOnly .successbox img {
+  width: 100%;
+}
+
+.redEnvelopeOnly .button {
+  width: 100%;
+  height: 2.306667rem;
+  background-color: #faecde;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.redEnvelopeOnly .delete {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+}
+
+.redEnvelopeOnly .delete-box {
+  width: 0.933333rem;
+  height: 0.933333rem;
+  border-radius: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 0.933333rem 0.933333rem;
+  background-image: url("//imgsize.52shangou.com/img/n/05/16/1463389690095_4800.jpg");
+}
+
+.redEnvelopeOnly .failed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: none;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.redEnvelopeOnly .xiazai {
+  width: 4.4rem;
+  height: 1.133333rem;
+  text-align: center;
+  line-height: 1.133333rem;
+  font-size: 0.64rem;
+  color: #fff;
+  background-color: #ff2b03;
+  border-radius: 0.133333rem;
+  font-family: "Microsoft yahei";
+}

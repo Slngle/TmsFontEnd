@@ -1,0 +1,24 @@
+.HotPoint {
+  position: relative;
+  width: 100%;
+}
+
+.HotPoint .link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.HotPoint .link .link-abs {
+  position: absolute;
+}
+
+.HotPoint .imgList {
+  width: 10rem;
+}
+
+.HotPoint .imgList img {
+  width: 100%;
+}

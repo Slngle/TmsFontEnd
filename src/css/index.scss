@@ -1,0 +1,27 @@
+
+@import "reset";
+@import "method";
+// @import "../js/common/css/_img";
+// @import "../js/common/css/_loading";
+// @import "../js/common/css/_error";
+// @import "../js/common/css/_toast";
+// @import "../js/common/css/_countdown";
+
+html,body {
+    min-height: 100%;
+}
+
+.wrap {
+	width:100%;
+	/*min-height:100%;*/
+	/*overflow:hidden;*/
+}
+
+.hidden {
+	display:none!important;
+}
+
+.AllComponents {
+    width:750px;
+    margin:0 auto;
+}

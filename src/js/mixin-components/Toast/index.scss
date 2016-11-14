@@ -1,0 +1,177 @@
+.toast-wrap-toast {
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:999;
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+
+.toast-loading {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-30px;
+	margin-top:-30px;
+	width:60px;
+	height:60px;
+	-webkit-transform-origin: 50%;
+  	transform-origin: 50%;
+  	-webkit-animation: preloader-spin 1s steps(12, end) infinite;
+  	animation: preloader-spin 1s steps(12, end) infinite;
+}
+
+.toast-loading:after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image:url("data:image/svg+xml;charset=utf-8,<svg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'><defs><line%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F><%2Fdefs><g><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F><use%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F><%2Fg><%2Fsvg>");
+	background-position: 50%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.toast-wrap-toast-loading {
+	background: #333;
+    color:#fff;
+    width:100px;
+    height:100px;
+    border-radius:10px;
+    z-index:9999;
+}
+
+.toast {
+	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	max-width:343px;
+	padding:33px 49px;
+	background-color:rgba(0,0,0,.8);
+	border-radius:12px;
+	display:-webkit-box;
+}
+
+.t-icon {
+	width:85px;
+	height:85px;
+	background-position:center center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+}
+
+.toast-wrap {
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9999;
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	background-color: rgba(0,0,0,.3);
+}
+
+.toast-showBox {
+	border: 1px solid #f5f5f5;/*no*/
+    border-radius: 10px;
+    font-weight: 100;
+    width: 80%;
+    background-color: #fff;
+}
+
+.toast-showMessage-in {
+	padding: 0 40px;
+}
+
+.toast-showTitle {
+	font-size:32px;/*px*/
+    font-weight: 400;
+    color: #333;
+    padding-top:30px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.toast-showMessage {
+	border-bottom: 1px solid #f5f5f5;/*no*/
+	font-size: 28px;/*px*/
+    min-height: 50px;
+    color: #999;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.t-content {
+	color:#fff;
+	font-size: 32px;/*px*/
+	letter-spacing: 2px;
+	line-height:1.5em;
+	word-break: break-all;
+}
+
+.toast-showBtn {
+	display:-webkit-box;
+	-webkit-box-align:center;
+	.toast-ok {
+		-webkit-box-flex:1;
+		color: #333;
+		line-height: 90px;
+	    text-align: center;
+	    height: 90px;
+	    font-size:32px;/*px*/
+	}
+
+	// .toast-ok:active {
+	// 	background-color:#ccc;
+	// }
+
+	.toast-lbtn {
+		-webkit-box-flex:1;
+		border-right: 1px solid #f5f5f5;/*no*/
+		color: #333;
+		line-height: 90px;
+	    height: 90px;
+	    text-align: center;
+	    font-size:32px;/*px*/
+	}
+
+	.toast-rbtn {
+		-webkit-box-flex:1;
+		color: #333;
+		line-height: 90px;
+	    height: 90px;
+	    text-align: center;
+	    font-size:32px;/*px*/
+	}
+
+	.toast-rbtn:active {
+		background-color:#ccc;
+	}
+
+	.toast-lbtn:active {
+		background-color:#ccc;
+	}
+}
+
+@-webkit-keyframes preloader-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

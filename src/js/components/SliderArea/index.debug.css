@@ -1,0 +1,61 @@
+.SliderArea {
+  width: 10rem;
+  position: relative;
+}
+
+.SliderArea .slider-big {
+  position: relative;
+  width: 10rem;
+  height: 3.2rem;
+  margin: 0 auto;
+}
+
+.SliderArea .slider-big-outer {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.SliderArea .slider-big-wrap {
+  position: absolute;
+  height: 100%;
+}
+
+.SliderArea .slider-big-wrap li {
+  width: 10rem;
+  height: 100%;
+  float: left;
+}
+
+.SliderArea .slider-big-wrap li img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  vertical-align: top;
+}
+
+.SliderArea .linka {
+  display: block;
+  width: 10rem;
+  height: 100%;
+}
+
+.SliderArea .slider-status {
+  position: absolute;
+  right: 0.533333rem;
+  bottom: 0.266667rem;
+}
+
+.SliderArea .slider-status span {
+  display: block;
+  float: left;
+  width: 0.133333rem;
+  height: 0.133333rem;
+  border-radius: 100%;
+  margin-left: 0.133333rem;
+  background-color: #333333;
+}
+
+.SliderArea .slider-status .selected {
+  background-color: #FFEB00;
+}

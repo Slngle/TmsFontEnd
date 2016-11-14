@@ -1,0 +1,165 @@
+.limitTime-wrap {
+	margin:20px 0 15px 0;
+	position: relative;
+    z-index: 0;
+}
+
+.imgbox {
+	position:relative;
+	overflow:hidden;
+}
+
+.list-view-wrap {
+	padding:0px 20px 0 20px;
+	.soldoutdivwrap {
+		width:100%;
+		height:100%;
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:3;
+		background-color:rgba(255,255,255,.8);
+	}
+
+	.soldoutdiv {
+		position:absolute;
+		background:rgba(102,102,102,.6);
+		width:110px;
+		height:110px;
+		border-radius:100%;
+		left:50%;
+		top:50%;
+		margin-left:-55px;
+		margin-top:-55px;
+		font-family:PingFangSC-Regular;
+		font-size:24px;/*px*/
+		color:#ffffff;
+		letter-spacing:1.26px;/*px*/
+		text-align:center;
+		line-height:110px;
+	}
+	.normal-li {
+		float:left;
+		background:#ffffff;
+		border-radius:4px;
+		width:347px;
+		height:513px;
+		margin-bottom:10px;
+		position:relative;
+	}
+
+	.act-li {
+		margin-right:10px;
+	}
+
+	.list-view-wrap-box {
+		padding:10px 10px 20px 10px;
+	}
+
+	.list-img {
+		width:330px;
+		height:330px;
+		margin-bottom:3px;
+		position:relative;
+		z-index:1;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height:100%;
+		}
+	}
+
+	.list-title {
+		font-weight: normal;
+		margin-left:10px;
+		font-size:28px;/*px*/
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;  
+		min-height:40px;
+		color:#000000;
+		letter-spacing:2.41px;/*px*/
+		text-align:left;
+		margin-bottom:5px;
+		.brand {
+			font-family:  PingFang SC Medium;
+			font-weight: bold;
+		}
+
+		.name {
+			font-family:PingFangSC-Regular;
+		}
+	}
+
+	.list-intro {
+		font-family:PingFangSC-Regular;
+		font-size: 24px;/*px*/
+		margin-left:10px;
+		color:#999999;
+		letter-spacing:2.4px;/*px*/
+		text-align:left;
+		line-height: 1.37em;
+		height:1.37em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		margin-bottom:12px;
+	}
+
+	.price {
+		position:relative;
+		display:-webkit-box;
+		-webkit-box-align:center;
+		margin-left:10px;
+		margin-right:5px;
+		overflow: hidden;
+	}
+
+	.pricenow {
+		font-family:PingFangSC-Regular;
+		font-size: 30px;/*px*/
+		color:#fa4100;
+		text-align:left;
+		display: -webkit-box;
+		-webkit-box-align: center;
+	}
+
+	.pricenow-tuijian {
+		font-family:PingFangSC-Regular;
+		font-size: 30px;/*px*/
+		color:#000000;
+		letter-spacing:2.33px;/*px*/
+		text-align:left;
+	}
+
+	.priceold {
+		font-family:PingFangSC-Light;
+		font-size: 24px;/*px*/
+		color:#999999;
+		letter-spacing:2.4px;/*px*/
+		text-align:left;
+		margin-left:14px;
+		
+	}
+
+	.priceoldspan {
+		text-decoration: line-through;
+	}
+
+	.before-text {
+		font-family:PingFangSC-Regular;
+		font-size:20px;
+		color:#ffffff;
+		letter-spacing:0px;
+		line-height:23px;
+		text-align:center;
+	}
+	.btnwrapls {
+		-webkit-box-flex:1;
+		min-height:58px;
+	}
+}

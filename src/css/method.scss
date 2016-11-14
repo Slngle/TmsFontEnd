@@ -1,0 +1,53 @@
+@mixin fontSizeLoop($class,$pxValues) {
+    @for $i from 1 through 3 {
+        @at-root [data-dpr= "#{$i}"] #{$class}{
+          @if $i == 3{
+            $fontdpr3size : $pxValues * $i * 1.1;
+            font-size: $fontdpr3size + px;
+          }
+          @else{
+            font-size: #{$pxValues * $i}px;
+          }
+        }
+    }
+}
+
+@mixin threePxLoop($type,$class,$pxValues) {
+    @for $i from 1 through 3 {
+        @at-root [data-dpr= "#{$i}"] #{$class} {
+            #{$type}: #{$pxValues * $i}px;
+        }
+    }
+}
+ 
+/*
+* 超出几行显示.....
+*/
+
+@mixin pLine($clamp) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $clamp;  
+}
+
+
+/*
+* box弹性布局水平+垂直剧中
+*/
+@mixin boxX() {
+  display:-webkit-box;
+  -webkit-box-align:center;
+}
+
+
+/*
+* box弹性布局垂直
+*/
+
+@mixin boxY() {
+  display:-webkit-box;
+  -webkit-box-align:center;
+  -webkit-box-orient:vertical;
+}

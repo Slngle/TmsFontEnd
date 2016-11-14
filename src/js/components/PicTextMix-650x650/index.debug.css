@@ -1,0 +1,202 @@
+.PicTextMix {
+  width: 100%;
+  margin: 0.266667rem 0;
+  position: relative;
+  z-index: 0;
+}
+
+.PicTextMix .PicTextMixWrap {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.106667rem;
+  width: 9.466667rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: none;
+}
+
+.PicTextMix .clickT {
+  position: relative;
+}
+
+.PicTextMix .soldoutdiv {
+  position: absolute;
+  width: 3.808rem;
+  height: 3.808rem;
+  border-radius: 100%;
+  background-color: rgba(102, 102, 102, 0.6);
+  left: 50%;
+  top: 50%;
+  margin-left: -1.9rem;
+  margin-top: -1.9rem;
+  text-align: center;
+  line-height: 3.808rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.832rem;
+  color: #ffffff;
+  letter-spacing: 0.043733rem;
+  text-align: center;
+}
+
+.PicTextMix .soldoutdivwrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.PicTextMix .list-wrap {
+  width: 100%;
+}
+
+.PicTextMix .list-wrap-w {
+  padding: 0.413333rem 0 0.533333rem 0;
+}
+
+[data-dpr="1"] .PicTextMix .list-wrap-w {
+  border-bottom: 0.5px solid #dbdbdb;
+}
+
+[data-dpr="2"] .PicTextMix .list-wrap-w {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+[data-dpr="3"] .PicTextMix .list-wrap-w {
+  border-bottom: 1.5px solid #dbdbdb;
+}
+
+.PicTextMix .list-padding1 {
+  width: 9.466667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .list-padding1 .list-img {
+  width: 9.466667rem;
+  height: 5.066667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .list-padding1 .list-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.PicTextMix .list-padding2 {
+  width: 8.666667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .list-padding2 .list-img {
+  width: 8.666667rem;
+  height: 8.666667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .list-padding2 .list-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.PicTextMix .listContent {
+  font-size: 0.373333rem;
+  color: #232323;
+  margin-top: 0.266667rem;
+  width: 8.666667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .topTitle {
+  font-family: PingFangSC-Regular;
+  font-size: 0.4rem;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 1.5em;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.PicTextMix .bottomTitle {
+  font-family: PingFangSC-Regular;
+  font-size: 0.373333rem;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 0.133333rem;
+  line-height: 1.5em;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.PicTextMix .pricePlaceAndBtn {
+  display: -webkit-box;
+  -webkit-box-align: end;
+  width: 8.666667rem;
+  margin: 0 auto;
+}
+
+.PicTextMix .btnwrap {
+  position: relative;
+  -webkit-box-flex: 1;
+  min-height: 0.773333rem;
+  margin-top: 0.133333rem;
+  overflow: hidden;
+}
+
+.PicTextMix .oldprice {
+  line-height: 1em;
+}
+
+.PicTextMix .lineThrougth {
+  text-decoration: line-through;
+}
+
+.PicTextMix .oldpriceWrap {
+  display: -webkit-box;
+  -webkit-box-align: end;
+}
+
+.PicTextMix .oldpricefh {
+  font-family: PingFangSC-Medium;
+  font-size: 0.373333rem;
+  color: #fa4100;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.PicTextMix .oldpricenum {
+  font-family: PingFangSC-Regular;
+  font-size: 0.613333rem;
+  color: #fa4100;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.PicTextMix .oldFen {
+  font-family: PingFangSC-Regular;
+  font-size: 0.453333rem;
+  color: #fa4100;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.PicTextMix .price {
+  margin-left: 0.106667rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.4rem;
+  color: #999999;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1em;
+}

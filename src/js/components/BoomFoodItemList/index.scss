@@ -1,0 +1,148 @@
+.boomFood {
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	position:relative;
+	z-index:1;
+}
+
+
+
+.mart {
+	margin-top:-80px;
+}
+
+.boomFoodList {
+	display:-webkit-box;
+	-webkit-box-align:center;
+	background:#ffffff;
+	border-radius:4px;
+	width:710px;
+	height:280px;
+	margin:0 auto;
+	margin-bottom:10px;
+	.imgbox {
+		position:relative;
+	}
+	.soldoutdivwrap {
+		width:100%;
+		height:100%;
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:3;
+		background-color:rgba(255,255,255,.8);
+	}
+
+	.soldoutdiv {
+		position:absolute;
+		background:rgba(102,102,102,.6);
+		width:110px;
+		height:110px;
+		border-radius:100%;
+		left:50%;
+		top:50%;
+		margin-left:-55px;
+		margin-top:-55px;
+		font-family:PingFangSC-Regular;
+		font-size:24px;/*px*/
+		color:#ffffff;
+		letter-spacing:1.26px;/*px*/
+		text-align:center;
+		line-height:110px;
+	}
+	.imgwrapPos {
+		position:relative;
+		overflow: hidden;
+		margin-left: 10px;
+
+	}
+	.boomFoodListImg {
+		width:240px;
+		height:241px;
+		overflow: hidden;
+		img {
+			width:100;
+			height:100%;
+		}
+	}
+
+	.boomFoodListText {
+		margin-left:10px;
+		margin-right:20px;
+		-webkit-box-flex:1;
+	}
+
+	.foodListTitle {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2; 
+		font-size:32px;
+		color:#333333;
+		letter-spacing:2px;
+		text-align:left;
+		line-height: 1.5em;
+		height:3em;
+		margin-bottom:50px;
+		.tleft {
+			font-family:PingFangSC-Semibold;
+			font-weight: bold;
+		}
+		.tright {
+			font-family:PingFangSC-Regular;
+		}
+	}
+	
+	.pricePlace {
+		position:relative;
+		display:-webkit-box;
+		-webkit-box-align:center;
+		overflow: hidden;
+	}
+	
+	.pricePlaceLeft {
+		.price {
+			font-family:PingFangSC-regular;
+			font-size:24px;
+			color:#999999;
+			letter-spacing:0.46px;/*px*/
+			text-align:left;	
+			line-height:1.1em;	
+			margin-bottom: 10px;
+		}
+
+		.lineThrougth {
+			text-decoration:line-through;
+		}
+
+		.oldprice {
+			font-family:PingFangSC-Medium;
+			color:#FA4100;
+			text-align: left;
+			line-height: 1em;
+			margin-left:-5px;
+		}
+		.oldFen {
+			font-size: 26px;
+		}
+		.oldpricefh {
+			font-size: 28px;
+		}
+
+		.oldpricenum {
+			font-size: 42px;
+			line-height: 1em;
+		}
+	}
+	
+	.pricePlaceRight {
+		position:relative;
+		-webkit-box-flex:1;
+		min-height: 58px;
+		margin-top:10px;
+	}
+}
+
+

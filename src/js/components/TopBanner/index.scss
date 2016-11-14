@@ -1,0 +1,14 @@
+.banner-wrap {
+	position:relative;
+	z-index:0;
+	margin:0 auto;
+	overflow:hidden;
+	.top-banner {
+		width:100%;
+		height:100%;
+		img {
+			width:100%;
+			height:100%;
+		}
+	}
+}

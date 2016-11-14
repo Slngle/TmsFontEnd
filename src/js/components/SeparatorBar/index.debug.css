@@ -1,0 +1,11 @@
+.SeparatorBar {
+  position: relative;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  padding-left: 0.266667rem;
+  color: #999;
+  font-size: 0.32rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}

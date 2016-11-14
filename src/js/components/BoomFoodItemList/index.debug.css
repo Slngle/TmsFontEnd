@@ -1,0 +1,174 @@
+.boomFood {
+  width: 100%;
+  margin-top: 0.266667rem;
+  margin-bottom: 0.266667rem;
+  position: relative;
+  z-index: 1;
+}
+
+.mart {
+  margin-top: -1.066667rem;
+}
+
+.boomFoodList {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  background: #ffffff;
+  border-radius: 0.053333rem;
+  width: 9.466667rem;
+  height: 3.733333rem;
+  margin: 0 auto;
+  margin-bottom: 0.133333rem;
+}
+
+.boomFoodList .imgbox {
+  position: relative;
+}
+
+.boomFoodList .soldoutdivwrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.boomFoodList .soldoutdiv {
+  position: absolute;
+  background: rgba(102, 102, 102, 0.6);
+  width: 1.466667rem;
+  height: 1.466667rem;
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.733333rem;
+  margin-top: -0.733333rem;
+  font-family: PingFangSC-Regular;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.466667rem;
+}
+
+[data-dpr="1"] .boomFoodList .soldoutdiv {
+  font-size: 12px;
+  letter-spacing: 0.63px;
+}
+
+[data-dpr="2"] .boomFoodList .soldoutdiv {
+  font-size: 24px;
+  letter-spacing: 1.26px;
+}
+
+[data-dpr="3"] .boomFoodList .soldoutdiv {
+  font-size: 36px;
+  letter-spacing: 1.89px;
+}
+
+.boomFoodList .imgwrapPos {
+  position: relative;
+  overflow: hidden;
+  margin-left: 0.133333rem;
+}
+
+.boomFoodList .boomFoodListImg {
+  width: 3.2rem;
+  height: 3.213333rem;
+  overflow: hidden;
+}
+
+.boomFoodList .boomFoodListImg img {
+  width: 100;
+  height: 100%;
+}
+
+.boomFoodList .boomFoodListText {
+  margin-left: 0.133333rem;
+  margin-right: 0.266667rem;
+  -webkit-box-flex: 1;
+}
+
+.boomFoodList .foodListTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 0.426667rem;
+  color: #333333;
+  letter-spacing: 0.026667rem;
+  text-align: left;
+  line-height: 1.5em;
+  height: 3em;
+  margin-bottom: 0.666667rem;
+}
+
+.boomFoodList .foodListTitle .tleft {
+  font-family: PingFangSC-Semibold;
+  font-weight: bold;
+}
+
+.boomFoodList .foodListTitle .tright {
+  font-family: PingFangSC-Regular;
+}
+
+.boomFoodList .pricePlace {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  overflow: hidden;
+}
+
+.boomFoodList .pricePlaceLeft .price {
+  font-family: PingFangSC-regular;
+  font-size: 0.32rem;
+  color: #999999;
+  text-align: left;
+  line-height: 1.1em;
+  margin-bottom: 0.133333rem;
+}
+
+[data-dpr="1"] .boomFoodList .pricePlaceLeft .price {
+  letter-spacing: 0.23px;
+}
+
+[data-dpr="2"] .boomFoodList .pricePlaceLeft .price {
+  letter-spacing: 0.46px;
+}
+
+[data-dpr="3"] .boomFoodList .pricePlaceLeft .price {
+  letter-spacing: 0.69px;
+}
+
+.boomFoodList .pricePlaceLeft .lineThrougth {
+  text-decoration: line-through;
+}
+
+.boomFoodList .pricePlaceLeft .oldprice {
+  font-family: PingFangSC-Medium;
+  color: #FA4100;
+  text-align: left;
+  line-height: 1em;
+  margin-left: -0.066667rem;
+}
+
+.boomFoodList .pricePlaceLeft .oldFen {
+  font-size: 0.346667rem;
+}
+
+.boomFoodList .pricePlaceLeft .oldpricefh {
+  font-size: 0.373333rem;
+}
+
+.boomFoodList .pricePlaceLeft .oldpricenum {
+  font-size: 0.56rem;
+  line-height: 1em;
+}
+
+.boomFoodList .pricePlaceRight {
+  position: relative;
+  -webkit-box-flex: 1;
+  min-height: 0.773333rem;
+  margin-top: 0.133333rem;
+}

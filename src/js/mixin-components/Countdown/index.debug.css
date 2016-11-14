@@ -1,0 +1,250 @@
+.countdown {
+  width: 100%;
+}
+
+.countdown .endFloat {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 6;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.countdown .endFloatCircle {
+  background-color: rgba(102, 102, 102, 0.8);
+  width: 4.746667rem;
+  height: 4.746667rem;
+  margin: 0 auto;
+  margin-top: 5.88rem;
+  border-radius: 100%;
+}
+
+[data-dpr="1"] .countdown .endFloatCircle {
+  border: 1px solid #666666;
+}
+
+[data-dpr="2"] .countdown .endFloatCircle {
+  border: 2px solid #666666;
+}
+
+[data-dpr="3"] .countdown .endFloatCircle {
+  border: 3px solid #666666;
+}
+
+.countdown .endFloatCircle .img-wrap {
+  width: 1.866667rem;
+  height: 1.866667rem;
+  margin: 0 auto;
+  margin-top: 0.893333rem;
+}
+
+.countdown .endFloatCircle .img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.countdown .endFloatCircle .img-wrap-text {
+  font-family: PingFangSC-Regular;
+  font-size: 0.48rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.186667rem;
+}
+
+[data-dpr="1"] .countdown .endFloatCircle .img-wrap-text {
+  letter-spacing: 0.945px;
+}
+
+[data-dpr="2"] .countdown .endFloatCircle .img-wrap-text {
+  letter-spacing: 1.89px;
+}
+
+[data-dpr="3"] .countdown .endFloatCircle .img-wrap-text {
+  letter-spacing: 2.835px;
+}
+
+.countdown .closed-title {
+  font-family: PingFangSC-Light;
+  font-size: 0.48rem;
+  color: #ffffff;
+  line-height: 0.44rem;
+  text-align: center;
+}
+
+[data-dpr="1"] .countdown .closed-title {
+  letter-spacing: 0.345px;
+}
+
+[data-dpr="2"] .countdown .closed-title {
+  letter-spacing: 0.69px;
+}
+
+[data-dpr="3"] .countdown .closed-title {
+  letter-spacing: 1.035px;
+}
+
+.countdown .closed-content {
+  font-family: PingFangSC-Light;
+  color: #999999;
+  line-height: 1em;
+  /*px*/
+  text-align: center;
+  margin-top: 0.106667rem;
+}
+
+[data-dpr="1"] .countdown .closed-content {
+  font-size: 10px;
+  letter-spacing: 0.19px;
+}
+
+[data-dpr="2"] .countdown .closed-content {
+  font-size: 20px;
+  letter-spacing: 0.38px;
+}
+
+[data-dpr="3"] .countdown .closed-content {
+  font-size: 30px;
+  letter-spacing: 0.57px;
+}
+
+.countdown .closed {
+  background-color: #424242;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-orient: vertical;
+  height: 1.2rem;
+  overflow: hidden;
+}
+
+.countdown .countdown-wrap {
+  width: 10rem;
+  height: 1.066667rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.countdown .countdown-wrap-left {
+  margin-left: 0.4rem;
+  -webkit-box-flex: 1;
+}
+
+.countdown .countdown-wrap-right {
+  margin-right: 0.133333rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.countdown .black-cir {
+  width: 0.64rem;
+  height: 0.56rem;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  line-height: 0.56rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #262626;
+}
+
+[data-dpr="1"] .countdown .black-cir {
+  letter-spacing: 0.8px;
+  border-radius: 1.5px;
+}
+
+[data-dpr="2"] .countdown .black-cir {
+  letter-spacing: 1.6px;
+  border-radius: 3px;
+}
+
+[data-dpr="3"] .countdown .black-cir {
+  letter-spacing: 2.4px;
+  border-radius: 4.5px;
+}
+
+.countdown .timer-text {
+  font-family: PingFangSC-Regular;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0.04rem;
+}
+
+[data-dpr="1"] .countdown .timer-text {
+  font-size: 8px;
+  letter-spacing: 0.42px;
+}
+
+[data-dpr="2"] .countdown .timer-text {
+  font-size: 16px;
+  letter-spacing: 0.84px;
+}
+
+[data-dpr="3"] .countdown .timer-text {
+  font-size: 24px;
+  letter-spacing: 1.26px;
+}
+
+.countdown .countdown-top-p {
+  font-family: PingFangSC-Light;
+  color: #333333;
+  text-align: left;
+  color: #fff;
+}
+
+[data-dpr="1"] .countdown .countdown-top-p {
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  line-height: 16.5px;
+  margin-bottom: 2px;
+}
+
+[data-dpr="2"] .countdown .countdown-top-p {
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  line-height: 33px;
+  margin-bottom: 4px;
+}
+
+[data-dpr="3"] .countdown .countdown-top-p {
+  font-size: 39px;
+  letter-spacing: 0.75px;
+  line-height: 49.5px;
+  margin-bottom: 6px;
+}
+
+.countdown .countdown-bottom-p {
+  font-family: PingFangSC-Light;
+  color: #999999;
+  text-align: left;
+}
+
+[data-dpr="1"] .countdown .countdown-bottom-p {
+  font-size: 9px;
+  letter-spacing: 0.17px;
+  line-height: 9.5px;
+}
+
+[data-dpr="2"] .countdown .countdown-bottom-p {
+  font-size: 18px;
+  letter-spacing: 0.34px;
+  line-height: 19px;
+}
+
+[data-dpr="3"] .countdown .countdown-bottom-p {
+  font-size: 27px;
+  letter-spacing: 0.51px;
+  line-height: 28.5px;
+}
+
+[data-dpr="1"] .countdown .bt-font-size {
+  font-size: 13px;
+}
+
+[data-dpr="2"] .countdown .bt-font-size {
+  font-size: 26px;
+}
+
+[data-dpr="3"] .countdown .bt-font-size {
+  font-size: 39px;
+}

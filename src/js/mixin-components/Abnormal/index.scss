@@ -1,0 +1,41 @@
+.error-wrap {
+  min-height:100%;
+  width:100%;
+  background: #eee;
+  position:fixed;
+  z-index:5;
+  left:0;
+  top:0;
+  padding-top:200px;
+}
+
+.error-context {
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  -webkit-box-orient:vertical;
+}
+
+.error-img {
+  width:220px;
+  height:220px;
+  margin-bottom:20px;
+}
+
+.error-img img {
+  width:100%;
+}
+
+.p-top {
+  margin-bottom:20px;
+  font-size:28px;/*px*/
+  color:#5F646e;
+  text-align:center;
+}
+
+.p-bottom {
+  margin-bottom:20px;  
+  color: #999;
+  font-size:24px;/*px*/
+  text-align:center;
+}

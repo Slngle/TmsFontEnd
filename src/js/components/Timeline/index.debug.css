@@ -1,0 +1,293 @@
+.height200 {
+  height: 2.533333rem;
+}
+
+.height90 {
+  height: 1.066667rem;
+}
+
+.timeline {
+  width: 10rem;
+  height: 1.466667rem;
+  overflow: hidden;
+}
+
+.timeline .timelineWrap {
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.timeline .timelineWrapWebkit {
+  height: 1.466667rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+.timeline .timelistWrap {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.timeline .timelistWrap .listMr {
+  margin-right: 0.666667rem;
+}
+
+.timeline .timelistWrap .timeline-list {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border: 1px solid #979797;
+  border-radius: 0.133333rem;
+  width: 3.6rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap .timeline-list .timeline-list-top {
+  opacity: 0.6;
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap .timeline-list .timeline-list-bottom {
+  opacity: 0.6;
+  font-family: HYQiHei-DES;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap .timeline-list-active {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: 0.133333rem;
+  width: 3.6rem;
+  height: 1.2rem;
+  background: #ffe600;
+}
+
+.timeline .timelistWrap .timeline-list-active .timeline-list-top {
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #000000;
+  letter-spacing: 0.014933rem;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap .timeline-list-active .timeline-list-bottom {
+  font-family: HYQiHei-EES;
+  font-size: 0.32rem;
+  color: #333333;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap3 {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.timeline .timelistWrap3 .timeline-list {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: 0.133333rem;
+  width: 3.066667rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap3 .timeline-list .timeline-list-top {
+  opacity: 0.6;
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap3 .timeline-list .timeline-list-bottom {
+  opacity: 0.6;
+  font-family: HYQiHei-DES;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap3 .timeline-list-active {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  background: #ffe600;
+  border-radius: 0.133333rem;
+  width: 3.066667rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap3 .timeline-list-active .timeline-list-top {
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #000000;
+  letter-spacing: 0.014933rem;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap3 .timeline-list-active .timeline-list-bottom {
+  font-family: HYQiHei-EES;
+  font-size: 0.32rem;
+  color: #333333;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap4 {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.timeline .timelistWrap4 .timeline-list {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: 0.133333rem;
+  width: 2.4rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap4 .timeline-list .timeline-list-top {
+  opacity: 0.6;
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap4 .timeline-list .timeline-list-bottom {
+  opacity: 0.6;
+  font-family: HYQiHei-DES;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap4 .timeline-list-active {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  background: #ffe600;
+  border-radius: 0.133333rem;
+  width: 2.4rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap4 .timeline-list-active .timeline-list-top {
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #000000;
+  letter-spacing: 0.014933rem;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap4 .timeline-list-active .timeline-list-bottom {
+  font-family: HYQiHei-EES;
+  font-size: 0.32rem;
+  color: #333333;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap5 {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  padding: 0 0.266667rem;
+}
+
+.timeline .timelistWrap5 .timeline-list {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: 0.133333rem;
+  width: 2.4rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap5 .timeline-list .timeline-list-top {
+  opacity: 0.6;
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap5 .timeline-list .timeline-list-bottom {
+  opacity: 0.6;
+  font-family: HYQiHei-DES;
+  font-size: 0.32rem;
+  color: #FFFFFF;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap5 .timeline-list-active {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  background: #ffe600;
+  border-radius: 0.133333rem;
+  width: 2.4rem;
+  height: 1.2rem;
+}
+
+.timeline .timelistWrap5 .timeline-list-active .timeline-list-top {
+  font-family: HYQiHei-EES;
+  font-size: 0.453333rem;
+  color: #333333;
+  letter-spacing: 0.014933rem;
+  line-height: 0.546667rem;
+  text-align: center;
+}
+
+.timeline .timelistWrap5 .timeline-list-active .timeline-list-bottom {
+  font-family: HYQiHei-EES;
+  font-size: 0.32rem;
+  color: #333333;
+  letter-spacing: 0.013333rem;
+  line-height: 0.386667rem;
+  text-align: center;
+}

@@ -1,0 +1,123 @@
+.Coupon-wrap {
+  width: 100%;
+  position: relative;
+}
+
+.Coupon-wrap .Coupon-wrap-contain {
+  width: 10rem;
+  padding: 0.266667rem 0;
+}
+
+.Coupon-wrap .list-contain {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  width: 4.666667rem;
+  height: 3.173333rem;
+  border-radius: 0.106667rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Coupon-wrap .coupontype {
+  font-family: PingFangSC-Medium;
+  font-size: 0.826667rem;
+  letter-spacing: 0;
+  line-height: 1.232rem;
+  text-align: center;
+}
+
+.Coupon-wrap .priceF {
+  font-family: PingFangSC-Regular;
+  font-size: 0.527867rem;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.Coupon-wrap .dyprice {
+  font-family: PingFangSC-Regular;
+  font-size: 0.492667rem;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 0.133333rem;
+}
+
+.Coupon-wrap .couponrule {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  height: 2.133333rem;
+}
+
+.Coupon-wrap .base {
+  opacity: 0.6;
+  font-family: PingFangSC-Regular;
+  font-size: 0.266667rem;
+  letter-spacing: 0;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.Coupon-wrap .lin {
+  width: 100%;
+  font-family: PingFangSC-Regular;
+  font-size: 0.293333rem;
+  height: 0.773333rem;
+  line-height: 0.773333rem;
+  text-align: center;
+}
+
+.Coupon-wrap .config1 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.Coupon-wrap .config1 .list-contain {
+  width: 9.466667rem;
+  height: 2.933333rem;
+}
+
+.Coupon-wrap .config2 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.Coupon-wrap .config2 .mlleft {
+  margin-left: 0.266667rem;
+}
+
+.Coupon-wrap .config3 {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Coupon-wrap .config3 .list-contain {
+  margin-left: 0.133333rem;
+}
+
+.Coupon-wrap .config3 .config3-wrap {
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.Coupon-wrap .config3 .config3-scroll-wrap {
+  display: -webkit-box;
+  -webkit-box-align: center;
+}

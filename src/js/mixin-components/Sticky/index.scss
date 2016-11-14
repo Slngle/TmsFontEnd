@@ -1,0 +1,30 @@
+.webkit-sticky {
+	position: -webkit-sticky;
+	min-height:80px;/*px*/
+	top:124px;/*px*/
+	z-index:300;
+	//background-color:#ffffff;
+	// margin-bottom:20px;
+}
+
+// .com-sticky-wrap {
+// 	position: relative;
+// 	-webkit-overflow-scrolling: touch;
+//     overflow: auto;
+//     //background:#ffffff;
+// 	//border:1px solid #dbdbdb;/*no*/
+// 	border-left:none;
+// 	border-right:none;
+// }
+
+.webkit-sticky-fixed-wrap {
+	z-index:300;
+	width:100%;
+}
+
+.nav-in-active {
+	position: fixed;
+	left:0;
+	top:88px;/*px*/
+	z-index:300;
+}
